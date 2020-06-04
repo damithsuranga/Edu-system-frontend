@@ -1,0 +1,67 @@
+#main_sidebar{
+    position: fixed;
+    display: block;
+   background-repeat: no-repeat;
+    background-color: rgb(230, 230, 240);
+    //background-image: url("https://thumbs.dreamstime.com/b/white-pattern-back-to-schook-concept-education-school-background-hand-drawn-school-supplies-comic-speech-bubble-121353327.jpg");
+   // opacity: 0.5;
+    
+}
+#main_header{
+    //background-image: url("https://thumbs.dreamstime.com/b/white-pattern-back-to-schook-concept-education-school-background-hand-drawn-school-supplies-comic-speech-bubble-121353327.jpg")
+    background-color: rgb(166, 183, 201);
+}
+#nav_bar{
+   // background-image: url("https://thumbs.dreamstime.com/b/white-pattern-back-to-schook-concept-education-school-background-hand-drawn-school-supplies-comic-speech-bubble-121353327.jpg")
+    background-color: rgb(166, 183, 201);
+}
+#Our_Course{
+    position: absolute;
+    right: 20%;
+    margin-top: 1.5%;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(10, 0, 10);
+}
+#Log_in{
+  position: absolute;
+    right: 10%;
+    margin-top: 1.5%;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(10, 0, 10);
+}
+#logo-lg{
+    overflow: hidden;
+    font-weight: bold;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+    @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
+}
+.sidebar-menu{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+.sidebar-menu span{
+  position: relative;
+  font-weight: bold;
+  color: black;
+}
+.sidebar-menu span:hover{
+  color: white;
+}

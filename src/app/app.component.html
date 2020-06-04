@@ -1,0 +1,95 @@
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="index2.html" class="logo" id="main_header">
+     <!-- mini logo for sidebar mini 50x50 pixels -->
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg" id="logo-lg">E-learning Center</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top" id="nav_bar">
+      <a routerLink ="/dashboard">
+      <span class="logo-lg" id="Our_Course">Our Courses</span>
+    </a>
+    <!-- <popup>Please sign in here</popup> -->
+    <a routerLink ="/Login">
+      <!-- <span class="logo-lg" id="Log_in">Sign in</span> -->
+      <button id="Log_in">Sign in</button>
+    </a>
+      <!-- (click) = "Clickit()" -->
+      <!-- Sidebar toggle button-->
+      <!-- <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a> -->
+
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar" id="main_sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar" id="sidebar">
+
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <!-- <li class="header">MAIN NAVIGATION</li> -->
+        <li class="treeview">
+          <a routerLink="/PrimaryEducation">
+            <i class="fa fa-user"></i><span>Primary Education</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a routerLink="/Gradesixeducation">
+            <i class="fa fa-user"></i> <span>Grade Six Education</span>
+          </a>
+        </li>
+        <li class="treeview">
+            <a routerLink ="/Gradeseveneducation">
+            <i class="fa fa-address-book"></i> <span>Grade Seven Education</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a routerLink="/Gradeeighteducation">
+            <i class="fa fa-cart-plus"></i> <span>Grade Eight Education</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a routerLink="/Gradenineeducation">
+            <i class="fa fa-search-plus"></i> <span>Grade Nine Education</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a routerLink="/Gradeteneducation">
+            <i class="fa fa-search-plus"></i> <span>Grade Ten Education</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a routerLink="/GradeOrdineryLeveleducation">
+            <i class="fa fa-search-plus"></i> <span>GCE O/L</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a routerLink="/GradeAdvancedLeveleducation">
+            <i class="fa fa-search-plus"></i> <span>GCE A/L</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+  <!-- /.content-wrapper -->
+  <!-- <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.4.0
+    </div>
+    <strong>Copyright &copy; 2019 <a href="http://ijse.lk">IJSE - DEP</a>.</strong> All rights
+    reserved.
+  </footer> -->
+
+</div>
+<!-- ./wrapper -->

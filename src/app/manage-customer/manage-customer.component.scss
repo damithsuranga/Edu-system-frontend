@@ -1,0 +1,31 @@
+h2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+table tfoot{
+  text-align: center;
+}
+
+form div button{
+  margin: 5px
+}
+
+table tbody{
+  cursor: pointer;
+
+  td:last-child:hover{
+    color: red;
+  }
+}
+
+.selected{
+  background-color: lightgray;
+}
+
+.ng-dirty .ng-invalid:not(form){
+  border: 1px solid red;
+}
+// #background{
+//   background-image: url("https://cdn2.vectorstock.com/i/1000x1000/71/21/grated-school-tools-education-background-design-vector-19397121.jpg");
+// }

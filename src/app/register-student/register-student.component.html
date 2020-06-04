@@ -1,0 +1,133 @@
+<section class="content-header">
+    <h1>
+      New Student
+    </h1>
+    <!-- <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Manage Customer</li>
+    </ol> -->
+  
+  
+  <!-- Main content -->
+  <!-- <section class="content" id="background"> -->
+  
+    <div class="row">
+      <!-- left column -->
+      <div class="col-md-12">
+        <!-- general form elements -->
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">Enter Student Details</h3>
+          </div>
+          <form role="form" #frmStudent="ngForm" (ngSubmit)="saveStudent()">
+            <div class="box-body">
+              <div class="form-group">
+                <div class="col-md-12">
+                <label>First Name</label>
+                <input #txtFirstName [(ngModel)]='currentStudent.firstName' class="form-control" name="Fname" placeholder="Enter First Name"
+                       type="text"  required="true">
+                      </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12">
+                <label>Last Name</label>
+                <input [(ngModel)]='currentStudent.lastName' class="form-control" name="Lname" placeholder="Enter Last Name"
+                       type="text"  minlength="4" required="true">
+                      </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                <label>E-mail</label>
+                <input [(ngModel)]='currentStudent.email' class="form-control" name="email"
+                       placeholder="Enter E-mail Address" type="email" required="true">
+                      </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                <label>Address</label>
+                <input [(ngModel)]='currentStudent.address' class="form-control" name="address"
+                       placeholder="Enter Student Address" type="text" minlength="4" required="true">
+                      </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                <label>Phone number</label>
+                <input [(ngModel)]='currentStudent.phoneNumber' class="form-control" name="number"
+                       placeholder="Enter Phone Number" type="number" maxlength="10" required="true">
+                      </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                <label>Student UserName</label>
+                <input #txtUserName [(ngModel)]='currentStudent.userName' class="form-control" name="UserName"
+                       placeholder="Enter User Name" type="text"  required="true">
+                      </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6" id="textbox">
+                <label>Password</label>
+                <input [(ngModel)]='currentStudent.passWord' class="form-control" name="password"
+                        type="password"  required="true">
+                      </div>
+              </div>
+            </div>
+            <!-- /.box-body -->
+  
+            <div class="box-footer">
+              <button class="btn btn-primary" type="submit">{{buttonText}}</button>
+              <button class="btn btn-warning" type="button" (click)="clearForm()">Clear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- <div class="col-md-6">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title">Customer Details</h3>
+          </div> -->
+          <!-- /.box-header -->
+          <!-- <div class="box-body">
+            <table id="example2" class="table table-hover table-bordered">
+              <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Delete</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr (click)="onRowClick(customer)" *ngFor="let customer of customers"
+                  [class.selected]="selectedCustomer===customer">
+                <td>{{customer.id}}</td>
+                <td>{{customer.name}}</td>
+                <td>{{customer.address}}</td>
+                <td style="text-align: center; font-size: 24px;" (mouseenter)="mouseEnter(customer)" (mouseleave)="mouseExit(customer)">
+                  <i [ngClass]="getTrashClasses(customer)" (click)="deleteCustomer(customer)"></i>
+                </td>
+              </tr>
+              </tbody>
+              <tfoot *ngIf="showTableFoot">
+              <tr>
+                <td colspan="3">No customers are available</td>
+              </tr>
+              </tfoot>
+            </table>
+            <div id="pagination-wrapper">
+              <ngb-pagination
+                (pageChange)="onPageChange($event)"
+                [(page)]="page"
+                [pageSize]="pageSize"
+                [collectionSize]="customersCount"></ngb-pagination>
+            </div>
+          </div> -->
+          <!-- /.box-body -->
+        <!-- </div> -->
+        <!-- /.box -->
+      <!-- </div> -->
+      </div>
+  
+  </section>
+  <!-- /.content -->
+  
+  

@@ -1,0 +1,133 @@
+h1{
+    position: relative;
+    font-style: italic;
+    color: rgb(14, 1, 1);
+    font-size: 0.3in;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: left;
+  
+}
+
+#background{
+    position: fixed;
+    background-image: url("https://i.ytimg.com/vi/183ROVAPPvA/maxresdefault.jpg");
+    height: 100%;
+    width: 100%;
+    //opacity: 0.1;
+}
+#second_background{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    //background-image: url("https://previews.123rf.com/images/pxlprostudio/pxlprostudio1902/pxlprostudio190204077/117125673-e-education-icon-on-white-background-for-graphic-and-web-design-modern-simple-vector-sign-internet-c.jpg");
+    left: 0px;
+    height: 100%;
+}
+#Primary{
+    top: 30px;
+    left: 5%;
+    text-decoration: underline;
+}
+#Primary_topic{
+    color: royalblue;
+    font-size: 15pt;
+}
+#Primary_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Six{
+    top: 30px;
+    left: 2%;
+    text-decoration: underline;
+}
+#Grade_Six_topic{
+    color: royalblue;
+   font-size: 15pt;
+}
+#Grade_Six_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Seven{
+    top: 30px;
+    left: 1%;
+    text-decoration: underline;
+}
+#Grade_Seven_topic{
+    color: royalblue;
+     font-size: 15pt;
+}
+#Grade_Seven_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Eight{
+    top: 120px;
+    left: 5%;
+    text-decoration: underline;
+}
+#Grade_Eight_topic{
+     color: royalblue;
+    font-size: 15pt;
+}
+#Grade_Eight_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Nine{
+    top: 120px;
+    left: 2%;
+    text-decoration: underline;
+}
+#Grade_Nine_topic{
+     color: royalblue;
+   font-size: 15pt;
+}
+#Grade_Nine_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Ten{
+    top: 120px;
+    left: 1%;
+    text-decoration: underline;
+}
+#Grade_Ten_topic{
+    color: royalblue;
+     font-size: 15pt;
+}
+#Grade_Ten_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Eleven{
+    top: 200px;
+    left: 17%;
+    text-decoration: underline;
+}
+#Grade_Eleven_topic{
+   color: royalblue;
+  font-size: 15pt;
+}
+#Grade_Eleven_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+#Grade_Advanced_Level{
+    top: 200px;
+    left: 17%;
+    text-decoration: underline;
+}
+#Grade_Advanced_Level_topic{
+    color: royalblue;
+    font-size: 15pt;
+}
+#Grade_Advanced_Level_topic:hover{
+    color: springgreen;
+    font-weight: bold;
+}
+
+
